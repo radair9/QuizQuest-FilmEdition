@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bridget jones (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (22)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (27)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (26)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (10).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (3)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlepoke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlepoke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmLevel1Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\frmLevel1Edit.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wonka241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka241.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlebackgroundlvl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlebackgroundlvl1.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (15).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka27.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (25).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (18).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjonesposter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjonesposter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (15)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (23).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clapperboardavoid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clapperboardavoid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mariostar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mariostar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (7)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (8)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quizquestlogo-removebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quizquestlogo-removebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (2)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (5).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lakituYAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lakituYAY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (20).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (8).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lisasimpson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lisasimpson.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (16)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (17)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (21).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (18)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (12).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rloveactually (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rloveactually (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (29)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (29).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (14).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (24)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmLoginAEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\frmLoginAEdit.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wonka3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (12).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (20).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (20)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jacquard12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jacquard12.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="loveactually (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (30)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="surge 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\surge 1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (30).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (10)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blankbackgrounfull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blankbackgrounfull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (17).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye1remove-fotor-bg-remover-20251120112119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye1remove-fotor-bg-remover-20251120112119.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (6)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (13)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (25)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (17).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="surgenow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\surgenow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (28).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (21).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marioquestion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marioquestion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paddington" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paddington.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka231.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subtfilmeditionremovebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subtfilmeditionremovebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="labelfaceleft-removebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labelfaceleft-removebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (27).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lisasimpsonremove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lisasimpsonremove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="surge 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\surge 11.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mutelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mutelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subtfilmedition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subtfilmedition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (8).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatar select lbl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar select lbl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (10).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loudlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loudlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="level3back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level3back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (23)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (2)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (14).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (5).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (14)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screamcharattack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screamcharattack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (22).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (19).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newquestion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newquestion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (19).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (29)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (29).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (29)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (29)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (19)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (9)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (9)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loadingscreengif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loadingscreengif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (18).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goomba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goomba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (26).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knightpx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\knightpx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (13).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonkaposter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonkaposter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="level3background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level3background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (24).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="labelfaceright-removebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labelfaceright-removebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactuallyposter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactuallyposter1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screamcharhurt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screamcharhurt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clapperboardgif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clapperboardgif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (11)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screamcharlvl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screamcharlvl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (15).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (4)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye2remove-fotor-bg-remover-20251120112147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye2remove-fotor-bg-remover-20251120112147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (27).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (28).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (22).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yoshi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yoshi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMapEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\frmMapEdit.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wonka13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smb3HelpBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smb3HelpBackg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (12)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splashmario-ezgif.com-speed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splashmario-ezgif.com-speed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\continue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmLoginBEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\frmLoginBEdit.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bridget jones (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (16).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (26).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (30).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (28)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (24).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (5)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactually (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactually (21)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridgetjones (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridgetjones (16).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (13).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loveactuallyposter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loveactuallyposter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clapperboardstill.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clapperboardstill.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (23).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridget jones (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridget jones (25).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonka9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonka9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="level1map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level1map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
