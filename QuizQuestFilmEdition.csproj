@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE4E91E6-3C4E-4F04-BE15-22D379ED8FA4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuizQuestFilmEdition</RootNamespace>
+    <AssemblyName>QuizQuestFilmEdition</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\GameClass.cs" />
+    <Compile Include="Classes\Players.cs" />
+    <Compile Include="Forms\frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLeaderboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLeaderboard.Designer.cs">
+      <DependentUpon>frmLeaderboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLevel1.Designer.cs">
+      <DependentUpon>frmLevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLevel2.Designer.cs">
+      <DependentUpon>frmLevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLevel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLevel3.Designer.cs">
+      <DependentUpon>frmLevel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMap.Designer.cs">
+      <DependentUpon>frmMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSplashScreen.Designer.cs">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\level3background.jpg" />
+    <None Include="Resources\level3back.png" />
+    <None Include="Resources\mariostar.png" />
+    <None Include="Resources\loveactuallyposter1.jpg" />
+    <None Include="Resources\wonkaposter.jpg" />
+    <None Include="Resources\loveactually %282%292.jpg" />
+    <None Include="Resources\marioquestion.jpg" />
+    <None Include="Resources\smb3HelpBackg.png" />
+    <None Include="Resources\yoshi.png" />
+    <None Include="Resources\toad.png" />
+    <None Include="Resources\paddington.jpg" />
+    <None Include="Resources\lisasimpsonremove.png" />
+    <None Include="Resources\lisasimpson.jpg" />
+    <None Include="Resources\loveactually %2830%291.jpg" />
+    <None Include="Resources\loveactually %2829%291.jpg" />
+    <None Include="Resources\loveactually %2828%291.jpg" />
+    <None Include="Resources\loveactually %2827%291.jpg" />
+    <None Include="Resources\loveactually %2826%291.jpg" />
+    <None Include="Resources\loveactually %2825%291.jpg" />
+    <None Include="Resources\loveactually %2824%291.jpg" />
+    <None Include="Resources\loveactually %2823%291.jpg" />
+    <None Include="Resources\loveactually %2822%291.jpg" />
+    <None Include="Resources\loveactually %2821%291.jpg" />
+    <None Include="Resources\loveactually %2820%291.jpg" />
+    <None Include="Resources\loveactually %2819%291.jpg" />
+    <None Include="Resources\loveactually %2818%291.jpg" />
+    <None Include="Resources\loveactually %2817%291.jpg" />
+    <None Include="Resources\loveactually %2816%291.jpg" />
+    <None Include="Resources\loveactually %2815%291.jpg" />
+    <None Include="Resources\loveactually %2814%291.jpg" />
+    <None Include="Resources\loveactually %2813%291.jpg" />
+    <None Include="Resources\loveactually %2812%291.jpg" />
+    <None Include="Resources\loveactually %2811%291.jpg" />
+    <None Include="Resources\loveactually %2810%291.jpg" />
+    <None Include="Resources\loveactually %289%291.jpg" />
+    <None Include="Resources\loveactually %288%291.jpg" />
+    <None Include="Resources\loveactually %287%291.jpg" />
+    <None Include="Resources\loveactually %286%291.jpg" />
+    <None Include="Resources\loveactually %285%291.jpg" />
+    <None Include="Resources\loveactually %284%291.jpg" />
+    <None Include="Resources\loveactually %283%291.jpg" />
+    <None Include="Resources\loveactually %282%291.jpg" />
+    <None Include="Resources\loveactually %281%291.jpg" />
+    <None Include="Resources\Rloveactually %281%29.jpg" />
+    <None Include="Resources\loveactuallyposter.jpg" />
+    <None Include="Resources\newquestion.png" />
+    <None Include="Resources\wonka241.jpg" />
+    <None Include="Resources\wonka231.jpg" />
+    <None Include="Resources\wonka22.jpg" />
+    <None Include="Resources\wonka21.jpg" />
+    <None Include="Resources\wonka20.jpg" />
+    <None Include="Resources\wonka29.jpg" />
+    <None Include="Resources\wonka28.jpg" />
+    <None Include="Resources\wonka27.jpg" />
+    <None Include="Resources\wonka26.jpg" />
+    <None Include="Resources\wonka25.jpg" />
+    <None Include="Resources\wonka24.jpg" />
+    <None Include="Resources\wonka23.jpg" />
+    <None Include="Resources\wonka19.jpg" />
+    <None Include="Resources\wonka18.jpg" />
+    <None Include="Resources\wonka17.jpg" />
+    <None Include="Resources\wonka16.jpg" />
+    <None Include="Resources\wonka15.jpg" />
+    <None Include="Resources\wonka14.jpg" />
+    <None Include="Resources\wonka13.jpg" />
+    <None Include="Resources\wonka12.jpg" />
+    <None Include="Resources\wonka11.jpg" />
+    <None Include="Resources\wonka10.jpg" />
+    <None Include="Resources\wonka9.jpg" />
+    <None Include="Resources\wonka8.jpg" />
+    <None Include="Resources\wonka7.jpg" />
+    <None Include="Resources\wonka6.jpg" />
+    <None Include="Resources\wonka5.jpg" />
+    <None Include="Resources\wonka4.jpg" />
+    <None Include="Resources\wonka3.jpg" />
+    <None Include="Resources\wonka2.jpg" />
+    <None Include="Resources\wonka0.jpg" />
+    <None Include="Resources\wonka1.jpg" />
+    <None Include="Resources\knightpx.png" />
+    <None Include="Resources\level1map.png" />
+    <None Include="Resources\surgenow.png" />
+    <None Include="Resources\screamcharattack.png" />
+    <None Include="Resources\screamcharhurt.png" />
+    <None Include="Resources\screamcharlvl1.png" />
+    <None Include="Resources\Normal.png" />
+    <None Include="Resources\map2.png" />
+    <None Include="Resources\lakituYAY.png" />
+    <None Include="Resources\quizquestlogo-removebg.png" />
+    <None Include="Resources\splashmario-ezgif.com-speed.gif" />
+    <None Include="Resources\loadingscreengif.gif" />
+    <None Include="Resources\subtfilmeditionremovebg.png" />
+    <None Include="Resources\subtfilmedition.png" />
+    <None Include="Resources\labelfaceright-removebg.png" />
+    <None Include="Resources\labelfaceleft-removebg.png" />
+    <None Include="Resources\surge 11.PNG" />
+    <None Include="Resources\surge 1.PNG" />
+    <None Include="Resources\mutelogo.png" />
+    <None Include="Resources\loudlogo.png" />
+    <EmbeddedResource Include="Forms\frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLeaderboard.resx">
+      <DependentUpon>frmLeaderboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLevel1.resx">
+      <DependentUpon>frmLevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLevel2.resx">
+      <DependentUpon>frmLevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLevel3.resx">
+      <DependentUpon>frmLevel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMap.resx">
+      <DependentUpon>frmMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\clapperboardstill.png.png" />
+    <None Include="Resources\clapperboardgif.gif" />
+    <None Include="Resources\blankbackgrounfull.png" />
+    <None Include="Resources\battlepoke.png" />
+    <None Include="Resources\Easy.png" />
+    <None Include="Resources\Hard.png" />
+    <None Include="Resources\battlebackgroundlvl1.jfif" />
+    <None Include="Resources\avatar select lbl.png" />
+    <None Include="Resources\20.jpg" />
+    <None Include="Resources\eye1remove-fotor-bg-remover-20251120112119.png" />
+    <None Include="Resources\eye2remove-fotor-bg-remover-20251120112147.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\continue.png" />
+    <None Include="Resources\goback.png" />
+    <None Include="Resources\bridgetjones %281%29.jpg" />
+    <None Include="Resources\bridgetjones %282%29.jpg" />
+    <None Include="Resources\bridgetjones %283%29.jpg" />
+    <None Include="Resources\bridgetjones %284%29.jpg" />
+    <None Include="Resources\bridgetjones %285%29.jpg" />
+    <None Include="Resources\bridgetjones %286%29.jpg" />
+    <None Include="Resources\bridgetjones %287%29.jpg" />
+    <None Include="Resources\bridgetjones %288%29.jpg" />
+    <None Include="Resources\bridgetjones %289%29.jpg" />
+    <None Include="Resources\bridgetjones %2810%29.jpg" />
+    <None Include="Resources\bridgetjones %2811%29.jpg" />
+    <None Include="Resources\bridgetjones %2812%29.jpg" />
+    <None Include="Resources\bridgetjones %2813%29.jpg" />
+    <None Include="Resources\bridgetjones %2814%29.jpg" />
+    <None Include="Resources\bridgetjones %2815%29.jpg" />
+    <None Include="Resources\bridgetjones %2816%29.jpg" />
+    <None Include="Resources\bridgetjones %2817%29.jpg" />
+    <None Include="Resources\bridgetjones %2818%29.jpg" />
+    <None Include="Resources\bridgetjones %2819%29.jpg" />
+    <None Include="Resources\bridgetjones %2820%29.jpg" />
+    <None Include="Resources\bridgetjones %2821%29.jpg" />
+    <None Include="Resources\bridgetjones %2822%29.jpg" />
+    <None Include="Resources\bridgetjones %2823%29.jpg" />
+    <None Include="Resources\bridgetjones %2824%29.jpg" />
+    <None Include="Resources\bridgetjones %2825%29.jpg" />
+    <None Include="Resources\bridgetjones %2826%29.jpg" />
+    <None Include="Resources\bridgetjones %2827%29.jpg" />
+    <None Include="Resources\bridgetjones %2828%29.jpg" />
+    <None Include="Resources\bridgetjones %2829%29.jpg" />
+    <None Include="Resources\bridgetjones %2830%29.jpg" />
+    <None Include="Resources\goomba.png" />
+    <None Include="Resources\bridgetjonesposter.jpg" />
+    <None Include="Resources\clapperboardavoid.png" />
+    <None Include="bin\Debug\frmLoginBEdit.mp4" />
+    <None Include="bin\Debug\frmMapEdit.mp4" />
+    <None Include="bin\Debug\frmLevel1Edit.mp4" />
+    <None Include="Resources\homelogo.png" />
+    <None Include="Resources\home.png" />
+    <Content Include="Resources\Jacquard12.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
